@@ -10,3 +10,5 @@ catch
  
 # Get AD Users and export results to CSV 
 Get-ADUser -Filter '*' |  select SamAccountName, UserPrincipalName, DisplayName, GivenName, Surname, Name, EmailAddress | Export-Csv c:\temp\ADUsers.csv
+
+Test
