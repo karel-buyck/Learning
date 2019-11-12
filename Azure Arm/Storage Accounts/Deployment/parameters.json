@@ -27,7 +27,7 @@
             "value": true
         },
         "softDeleteRetentionDays": {
-            "value": 7
+            "value": 14
         }
     }
 }
