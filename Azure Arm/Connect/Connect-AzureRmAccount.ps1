@@ -1,3 +1,1 @@
 Connect-AzureRmAccount
-
-Get-AzResourceGroup
