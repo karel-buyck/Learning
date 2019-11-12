@@ -1,0 +1,25 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "mspName": {
+            "value": "ESC Delegated Administration"
+        },
+        "mspOfferDescription": {
+            "value": "ESC Delegated Administration"
+        },
+        "managedByTenantId": {
+            "value": "8e426d61-a69d-4927-8a3f-ef2f62da7f57"
+        },
+        "authorizations": {
+            "value": [
+                {
+                    "principalId": "cbd96205-d965-4ca8-a39c-27306d49325d",
+                    "principalIdDisplayName": "ESC Azure Admin",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
+                }
+                
+            ]
+        }
+    }
+}
