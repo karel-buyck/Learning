@@ -13,3 +13,5 @@ foreach ($User in $Users)
     }
     Set-ADUser @ADUserParams
 }
+
+Test
